@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_10"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="知情同意书"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="尊敬的各位妈妈:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          我们邀请您参加一项关于产后母乳喂养及情绪恢复的项目研究，该项目名称为产妇健康管理及产后病防治中医干预机制。本研究将在上海市长宁区妇幼保健院开展，研究已得到医院伦理委员会的审查及批准。本文涵盖的部分内容根据法规要求而定，是为了保护参加研究的患者您的权益。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  1.为什么要开展本项研究？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          研究背景：母乳喂养是婴儿最佳的天然食品，提高母乳喂养率迫在眉睫。用中医的方法综合治疗以提高母乳喂养率已得到证实，但尚缺少系统性研究。产后产妇的心理状况是缺少社会关注的部分，我们通过专业的心理量表进行检查，及时发现心理异常情况，给予中医综合疗法干预，该方法无创、操作简单，促进产妇尽早身心恢复。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          研究目的:了解产后纯母乳喂养情况及产妇心理状态；探讨产后中医综合疗法对促进泌乳及母乳喂养成功的影响,提高产后母乳喂养率。改善产后产妇的心境，促进产妇身心健康。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          试验范围：产后进行母乳喂养的妈妈们。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  2.该研究是怎样进行的？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          通过APP按时完成调查表，在调查过程中发现乳汁量少或情绪低落者，建议产妇到我院中医科进行治疗，我们医院有缺乳方面的治疗包括：中医辨证后中药调理，耳穴贴压，揿针按压及母乳喂养指导。针对情绪异常的调理包括：中医辨证后中药调理，中医音乐疗法，穴位按摩等。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  3.研究中我该做什么？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          整个研究将持续至产后6月，共有6次随访，在此期间，您只需配合，通过APP在回访时如实告诉我们您的具体情况即可。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  4.参加该研究将如何影响我的生活？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          参加本研究不会影响您正常的日常生活，请您放心。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  5.我参加此研究会有什么风险和不良反应？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          没有风险及不良反应。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  6.从此研究中我能得到什么利益？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          参加本研究我们将密切监测您的母乳喂养及心理恢复状况，如有异常情况，我们会提醒您来院就诊调理身体，以促进你实现产后6月内母乳喂养及心理恢复。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  7.参加本研究会给予我什么报酬？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          您不会因参加本研究而获得任何报酬。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  8.我的个人信息是保密的吗？" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="          您的医疗记录将保存在医院，研究者、研究主管部门、伦理委员会将被允许查阅您的医疗记录。任何有关本项研究结果的公开报告将不会披露您的个人身份。我们将在法律允许的范围内，尽一切努力保护您个人医疗资料的隐私。关于您的个人和医疗住处将对外保密，且被保管在安全可靠的地方。" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="当您签署了这份知情同意书，代表您同意您的个人信息被用于上述所描述的场合。" />
+
+                <LinearLayout
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_accept"
+                        android:background="@drawable/shape_btn_orange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同意" />
+
+                    <Button
+                        android:id="@+id/btn_decline"
+                        android:background="@drawable/shape_btn_orange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="拒绝" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

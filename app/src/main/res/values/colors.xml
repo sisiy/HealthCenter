@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="head_bg">#007dff</color>
+    <color name="ash">#F5F5F2</color>
+
+    <color name="skyBlue">#87CEEB</color>
+    <color name="blue">#1296db</color>
+    <color name="royalBlue">#4169E1</color>
+    <color name="navyBlue">#000080</color>
+    <color name="blackAsh">#999997</color>
+    <color name="textContent">#666666</color>
+    <color name="split_color">#E8E8E8</color>
+    <color name="red">#FB4E44</color>
+
+    <color name="name_selector_color">#cccccc</color>
+    <color name="bar_grey">#393a3e</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="color_c51">#f94c51</color>
+
+    <color name="lightPink">#F5ECF0</color>
+    <color name="pink">#FFAEB9</color>
+    <color name="home_red">#f37fa2</color>
+    <color name="home_yellow">#f4a42b</color>
+    <color name="home_orange">#C08C34</color>
+    <color name="home_green">#0ad5b6</color>
+
+    <color name="press">#e8e8e8</color>
+
+    <color name="blue_btn_cannot_pressed">#6CDEDD</color>
+    <color name="blue_btn_normal">#2DD0CF</color>
+    <color name="blue_btn_pressed">#02BDBC</color>
+    <color name="main_theme_color">#0195ff</color>
+    <color name="blue_btn_text_70">#E0F8F8</color>
+    <color name="blue_btn_text_press">#99E4E4</color>
+    <color name="jmui_jpush_blue">#2DD0CF</color>
+    <color name="menu_item_back_pres_color">#2DD0CF</color>
+</resources>

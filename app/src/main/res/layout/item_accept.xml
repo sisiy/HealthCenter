@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/friend_verify_item_ll"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    app:contentView="@+id/content"
+    app:rightMenuView="@+id/right">
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_10" />
+
+        <TextView
+            android:id="@+id/tv_accept"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@color/head_bg"
+            android:gravity="center"
+            android:text="同意"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_refuse"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_toLeftOf="@+id/tv_accept"
+            android:gravity="center"
+            android:text="拒绝"
+            android:textColor="@color/blackAsh"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/right"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eb424d"
+            android:gravity="center"
+            android:text="删除" />
+
+    </LinearLayout>
+</com.guanaj.easyswipemenulibrary.EasySwipeMenuLayout>
