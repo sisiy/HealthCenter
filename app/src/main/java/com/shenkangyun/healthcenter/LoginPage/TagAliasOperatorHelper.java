@@ -295,7 +295,7 @@ public class TagAliasOperatorHelper {
 //            ExampleUtil.showToast(logs, context);
         }else{
             String logs = "Failed to " + getActionStr(tagAliasBean.action)+" alias, errorCode:" + jPushMessage.getErrorCode();
-            System.out.println("-------------------------logs:"+logs);
+            System.out.println("logs:"+logs);
             if(!RetryActionIfNeeded(jPushMessage.getErrorCode(),tagAliasBean)) {
                 ExampleUtil.showToast(logs, context);
             }
